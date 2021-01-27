@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.MainDiv{
+    width: 50%;
+    height: 50%;
+    background: white;
+}
+
+#header {
+    display: flex;
+    justify-content:space-between;
+    font-family: "Papyrus", "Courier New", monospace;
+    padding: 0px 50px;
+}
+#header-imag {
+  display:flex; left: 100%;size: 20px;
+  flex-direction: row;
+
+
+}
+#header-title {
+  display:flex;
+  flex-direction: row;
+  
+}
+#body {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Papyrus", "Courier New", monospace;
+    padding: 20px 50px;
+}
+#body-text {
+  display:flex;
+  flex-direction: column;
+  padding-right: 30px;
+}
+#body-input {
+  display:flex;
+  flex-direction: column;
+}
+#feet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.inputBottom {
+    border: none;
+    border-bottom: 2px solid black;
+}
