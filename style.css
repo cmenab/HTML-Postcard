@@ -34,6 +34,7 @@ body{
     justify-content: space-evenly;
     font-family: "Papyrus", "Courier New", monospace;
     padding: 20px 50px;
+    background: white;
 }
 #body-text {
   display:flex;
@@ -49,6 +50,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 50px 0px;
+    background: white;
 }
 
 .inputBottom {
